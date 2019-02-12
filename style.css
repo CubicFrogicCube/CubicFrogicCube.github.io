@@ -1,0 +1,54 @@
+#body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(60, 60, 60);
+}
+#TimeAndMoney {
+    font-size: 20px;
+}
+#LetT {
+    font-size: 20px;
+}
+#Math {
+    display: flex;
+    flex-direction: row
+}
+#Polynomial {
+    font-size: 25px;
+}
+#PowerUpgrades {
+    display: flex;
+    flex-direction: row;
+}
+.TermUpgrades {
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    border: 2px black solid;
+    text-align: center;
+    font-size: 12.5px;
+}
+#ConstantTerm {
+    margin-left: 0px;
+}
+#Approximation {
+    visibility: hidden;
+    text-align: center;
+    font-size: 25px;
+}
+#CoefficientSumMult {
+    visibility: hidden;
+    font-size: 25px;
+}
+.Upgrades {
+    border: 2px black solid;
+    height: 100px;
+    width: 130px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
