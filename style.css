@@ -6,20 +6,15 @@
     user-select: none;
     background-color: rgb(60, 60, 60);
 }
-#TimeAndMoney {
-    font-size: 20px;
-}
-#LetT {
-    font-size: 20px;
-}
-#Math {
+#Mults {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    vertical-align: bottom;
+    position: absolute;
+    left: 320px;
+    top: 48.5px;
 }
-#Polynomial {
-    font-size: 25px;
-}
-#PowerUpgrades {
+#TermUpgrades {
     display: flex;
     flex-direction: row;
 }
@@ -30,18 +25,10 @@
     border: 2px black solid;
     text-align: center;
     font-size: 12.5px;
+    margin-top: 5px;
 }
 #ConstantTerm {
     margin-left: 0px;
-}
-#Approximation {
-    visibility: hidden;
-    text-align: center;
-    font-size: 25px;
-}
-#CoefficientSumMult {
-    visibility: hidden;
-    font-size: 25px;
 }
 .Upgrades {
     border: 2px black solid;
@@ -51,4 +38,43 @@
     text-align: center;
     margin-top: 10px;
     margin-left: 15px;
+}
+#Autobuyers {
+    margin-top: 5px;
+    border: 2px black solid;
+    height: 115px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    visibility: hidden;
+}
+#Checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+#AutobuyerText {
+    display: flex;
+    flex-direction: column;
+}
+.ABText {
+    margin-top: 3.7px;
+}
+#ConstBuyerText {
+    margin-top: 3px;
+}
+#LinBuyer {
+    visibility: hidden
+}
+#QuadBuyer {
+    visibility: hidden
+}
+#CubBuyer {
+    visibility: hidden
+}
+#QuarBuyer {
+    visibility: hidden
+}
+#QuinBuyer {
+    visibility: hidden
 }
