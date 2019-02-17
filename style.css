@@ -1,0 +1,80 @@
+#body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(60, 60, 60);
+}
+#Mults {
+    display: flex;
+    flex-direction: row;
+    vertical-align: bottom;
+    position: absolute;
+    left: 320px;
+    top: 48.5px;
+}
+#TermUpgrades {
+    display: flex;
+    flex-direction: row;
+}
+.TermUpgrades {
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    border: 2px black solid;
+    text-align: center;
+    font-size: 12.5px;
+    margin-top: 5px;
+}
+#ConstantTerm {
+    margin-left: 0px;
+}
+.Upgrades {
+    border: 2px black solid;
+    height: 100px;
+    width: 130px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+#Autobuyers {
+    margin-top: 5px;
+    border: 2px black solid;
+    height: 115px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    visibility: hidden;
+}
+#Checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+#AutobuyerText {
+    display: flex;
+    flex-direction: column;
+}
+.ABText {
+    margin-top: 3.7px;
+}
+#ConstBuyerText {
+    margin-top: 3px;
+}
+#LinBuyer {
+    visibility: hidden
+}
+#QuadBuyer {
+    visibility: hidden
+}
+#CubBuyer {
+    visibility: hidden
+}
+#QuarBuyer {
+    visibility: hidden
+}
+#QuinBuyer {
+    visibility: hidden
+}
